@@ -8,7 +8,7 @@ public class Imposto extends Casa{
 
     @Override
     public void acao(Jogador j){
-        System.out.println(j.getNome() + "deve pagar imposto de R$ ");
+        System.out.println(j.getNome() + "deve pagar imposto");
         j.pagar(taxa);
     }
 }
