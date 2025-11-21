@@ -9,6 +9,7 @@ public class Imposto extends Casa{
     @Override
     public void acao(Jogador j){
         System.out.println(j.getNome() + "deve pagar imposto");
-        j.pagar(taxa);
+        double valor = j.calcularPatrimonio() * 0.05;
+        j.pagar(valor);
     }
 }

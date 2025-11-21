@@ -10,6 +10,6 @@ public class Prisao extends Casa{
     @Override
     public void acao(Jogador j){
         System.out.println(j.getNome() + "foi preso, ficara 3 rodadas sem jogar");
-
+        
     }
 }
